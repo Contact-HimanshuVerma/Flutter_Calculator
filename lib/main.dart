@@ -107,7 +107,8 @@ class _CalculatorState extends State<Calculator> {
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      buildButton('7', 1, Colors.grey),
+                      buildButton(
+                          '7', 1, const Color.fromARGB(255, 200, 128, 128)),
                       buildButton('8', 1, Colors.grey),
                       buildButton('9', 1, Colors.grey),
                       buildButton('/', 1, Colors.orange),
